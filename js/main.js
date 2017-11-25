@@ -54,7 +54,7 @@ function post(params)
 {
 	var http = new XMLHttpRequest();	
 	var params = "lorem=ipsum&name=binny";
-	http.open("POST", "http://tlc.iiitdm.ac.in/live/test.php", true);	
+	http.open("POST", "https://tlc.iiitdm.ac.in/live/test.php", true);	
 	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	http.send(params);
 	
